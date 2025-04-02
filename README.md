@@ -1,5 +1,3 @@
-# My Project
-
 This is my awesome project built with Next.js and deployed on Vercel.
 
 ## 🚀 Live Demo
