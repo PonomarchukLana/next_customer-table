@@ -1,5 +1,15 @@
-import Image from "next/image";
+import { useServerDarkMode } from "./utils/useServerDarkMode";
+import { Table } from "@/components/table";
+import { DarkModeToggle } from "@/components/darkModeToggle";
 
-export default function Home() {
-  return <div className="bg-gray-800"></div>;
+export default async function Home() {
+  const theme = await useServerDarkMode();
+  return (
+    <div>
+      <div className="flex justify-end">
+        <DarkModeToggle defaultMode={theme} />
+      </div>
+      <Table />
+    </div>
+  );
 }
