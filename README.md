@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Project
+
+This is my awesome project built with Next.js and deployed on Vercel.
+
+## 🚀 Live Demo
+🔗 [Click here to view the deployed project]([https://your-project-url.com](https://next-customer-table.vercel.app/))
+
+## Technologies Used
+- React
+- Next.js
+- TypeScript
+- TailwindCSS
+- Vercel (for deployment)
 
 ## Getting Started
 
